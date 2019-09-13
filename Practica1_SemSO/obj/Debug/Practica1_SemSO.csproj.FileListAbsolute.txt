@@ -1,0 +1,24 @@
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\bin\Debug\Practica1_SemSO.exe.config
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\bin\Debug\Practica1_SemSO.exe
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\bin\Debug\Practica1_SemSO.pdb
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.csprojAssemblyReference.cache
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.cmd.resources
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.Form1.resources
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.Properties.Resources.resources
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.csproj.GenerateResource.cache
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.csproj.CoreCompileInputs.cache
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.exe
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.pdb
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\Practica1_SemSO\obj\Debug\Practica1_SemSO.ExploradorArchivos.resources
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\bin\Debug\Practica1_SemSO.exe.config
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\bin\Debug\Practica1_SemSO.exe
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\bin\Debug\Practica1_SemSO.pdb
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.csprojAssemblyReference.cache
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.cmd.resources
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.ExploradorArchivos.resources
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.Form1.resources
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.Properties.Resources.resources
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.csproj.GenerateResource.cache
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.csproj.CoreCompileInputs.cache
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.exe
+C:\Users\Negra\Desktop\Archivos_SO\Practica1_SemSO\obj\Debug\Practica1_SemSO.pdb
