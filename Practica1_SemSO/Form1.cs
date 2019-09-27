@@ -12,6 +12,11 @@ namespace Practica1_SemSO
 {
     public partial class Form1 : Form
     {
+        static Image pila100 = Image.FromFile("C:/Users/Uriel/Pictures/Pila100chido.PNG");
+        static Image pila75 = Image.FromFile("C:/Users/Uriel/Pictures/Pila75chido.PNG");
+        static Image pila50 = Image.FromFile("C:/Users/Uriel/Pictures/Pila50chido.PNG");
+        static Image pila25 = Image.FromFile("C:/Users/Uriel/Pictures/Pila25chido.PNG");
+
         public Form1()
         {
             InitializeComponent();
@@ -33,12 +38,8 @@ namespace Practica1_SemSO
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SystemInformation.PowerStatus(); // INVESTIGAR METODO PARA CREAR LA BATERIA EN EL SISTEMA 
-            pictureBox1.Image = Image.FromFile("C:/Users/Negra/Desktop/Archivos_SO/Windowschido.JPG");
-            string propname = this.label4.Text;
-            Type t = typeof(System.Windows.Forms.PowerStatus);
-            for(int i = 0; i<pictureBox1.Size)
-
+           pictureBox1.Image = Image.FromFile("C:/Users/Uriel/Pictures/Windowschido.JPG");
+           pictureBox2.Image = pila100;
         }
 
         private void Timer1_Tick(object sender, EventArgs e)
@@ -46,6 +47,15 @@ namespace Practica1_SemSO
             this.label1.Text = DateTime.Now.ToLongTimeString();
             //this.label2.Text = DateTime.Now.ToShortTimeString();
             //this.label3.Text = DateTime.Now.ToString("dddd");
+
+            PowerStatus pwr = SystemInformation.PowerStatus;
+            this.label4.Text = pwr.BatteryLifePercent.ToString();
+            this.label5.Text = string.Format("{0} hr {1} min remaining",
+                pwr.BatteryLifeRemaining / 3600, (pwr.BatteryLifeRemaining % 3600) / 60);
+            if(pwr.BatteryLifePercent <= 89)
+            {
+                pictureBox2.Image = pila50;
+            }
         }
     }
 }
