@@ -57,5 +57,11 @@ namespace Practica1_SemSO
                 pictureBox2.Image = pila50;
             }
         }
+
+        private void BtnReproductor_Click(object sender, EventArgs e)
+        {
+            ReproductorMusica reproductor = new ReproductorMusica();
+            reproductor.Show();
+        }
     }
 }

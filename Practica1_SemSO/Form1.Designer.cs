@@ -138,6 +138,7 @@
             this.btnReproductor.TabIndex = 9;
             this.btnReproductor.Text = "Reproductor";
             this.btnReproductor.UseVisualStyleBackColor = true;
+            this.btnReproductor.Click += new System.EventHandler(this.BtnReproductor_Click);
             // 
             // Form1
             // 

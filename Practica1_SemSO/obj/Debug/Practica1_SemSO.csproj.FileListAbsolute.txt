@@ -34,3 +34,6 @@ C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File M
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\bin\Debug\Practica1_SemSO.exe.config
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\bin\Debug\Practica1_SemSO.exe
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\bin\Debug\Practica1_SemSO.pdb
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Practica1_SemSO.ReproductorMusica.resources
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Interop.WMPLib.dll
+C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Practica1_SemSO.csproj.ResolveComReference.cache
