@@ -46,6 +46,7 @@
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ListView1_MouseDoubleClick);
             // 
             // columName
             // 
@@ -61,13 +62,13 @@
             // 
             this.columFecha.Text = "Fecha";
             // 
-            // ReproductorMusica
+            // Musica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.listView1);
-            this.Name = "ReproductorMusica";
+            this.Name = "Musica";
             this.Text = "ReproductorMusica";
             this.ResumeLayout(false);
 

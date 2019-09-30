@@ -60,7 +60,7 @@ namespace Practica1_SemSO
 
         private void BtnReproductor_Click(object sender, EventArgs e)
         {
-            ReproductorMusica reproductor = new ReproductorMusica();
+            Musica reproductor = new Musica();
             reproductor.Show();
         }
     }
