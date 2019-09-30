@@ -75,10 +75,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ColumnHeader columName;
         private System.Windows.Forms.ColumnHeader columTitulo;
         private System.Windows.Forms.ColumnHeader columFecha;
+        public System.Windows.Forms.ListView listView1;
     }
 }
