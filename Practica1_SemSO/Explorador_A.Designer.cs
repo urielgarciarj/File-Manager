@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.tvFile = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
-            // treeView1
+            // tvFile
             // 
-            this.treeView1.Location = new System.Drawing.Point(13, 24);
-            this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(362, 395);
-            this.treeView1.TabIndex = 0;
+            this.tvFile.Location = new System.Drawing.Point(12, 12);
+            this.tvFile.Name = "tvFile";
+            this.tvFile.Size = new System.Drawing.Size(209, 390);
+            this.tvFile.TabIndex = 0;
             // 
             // Explorador_A
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(636, 428);
-            this.Controls.Add(this.treeView1);
+            this.Controls.Add(this.tvFile);
             this.Name = "Explorador_A";
             this.Text = "Explorador_A";
             this.Load += new System.EventHandler(this.Explorador_A_Load);
@@ -53,6 +53,6 @@
 
         #endregion
 
-        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TreeView tvFile;
     }
 }

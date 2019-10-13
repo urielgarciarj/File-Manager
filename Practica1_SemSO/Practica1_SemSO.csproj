@@ -64,6 +64,12 @@
     <Compile Include="ExploradorArchivos.Designer.cs">
       <DependentUpon>ExploradorArchivos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Explorador_A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Explorador_A.Designer.cs">
+      <DependentUpon>Explorador_A.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ExploradorArchivos.resx">
       <DependentUpon>ExploradorArchivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Explorador_A.resx">
+      <DependentUpon>Explorador_A.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

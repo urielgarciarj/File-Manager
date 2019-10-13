@@ -31,6 +31,7 @@
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.txtURL = new System.Windows.Forms.TextBox();
             this.btnDescargar = new System.Windows.Forms.Button();
+            this.btnExplorador = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // progressBar
@@ -57,11 +58,22 @@
             this.btnDescargar.UseVisualStyleBackColor = true;
             this.btnDescargar.Click += new System.EventHandler(this.btnDescargar_Click);
             // 
+            // btnExplorador
+            // 
+            this.btnExplorador.Location = new System.Drawing.Point(550, 87);
+            this.btnExplorador.Name = "btnExplorador";
+            this.btnExplorador.Size = new System.Drawing.Size(75, 23);
+            this.btnExplorador.TabIndex = 3;
+            this.btnExplorador.Text = "Explorador";
+            this.btnExplorador.UseVisualStyleBackColor = true;
+            this.btnExplorador.Click += new System.EventHandler(this.btnExplorador_Click);
+            // 
             // Descargas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(698, 222);
+            this.Controls.Add(this.btnExplorador);
             this.Controls.Add(this.btnDescargar);
             this.Controls.Add(this.txtURL);
             this.Controls.Add(this.progressBar);
@@ -77,5 +89,6 @@
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.TextBox txtURL;
         private System.Windows.Forms.Button btnDescargar;
+        private System.Windows.Forms.Button btnExplorador;
     }
 }
