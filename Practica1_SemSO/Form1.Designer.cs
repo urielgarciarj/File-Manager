@@ -149,6 +149,7 @@
             this.btnDownload.TabIndex = 10;
             this.btnDownload.Text = "Descargas";
             this.btnDownload.UseVisualStyleBackColor = true;
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
             // 
             // Form1
             // 
