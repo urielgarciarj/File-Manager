@@ -52,6 +52,12 @@
     <Compile Include="cmd.Designer.cs">
       <DependentUpon>cmd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Descargas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Descargas.Designer.cs">
+      <DependentUpon>Descargas.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExploradorArchivos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </Compile>
     <EmbeddedResource Include="cmd.resx">
       <DependentUpon>cmd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Descargas.resx">
+      <DependentUpon>Descargas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExploradorArchivos.resx">
       <DependentUpon>ExploradorArchivos.cs</DependentUpon>
