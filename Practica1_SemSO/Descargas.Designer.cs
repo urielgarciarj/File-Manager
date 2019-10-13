@@ -55,6 +55,7 @@
             this.btnDescargar.TabIndex = 2;
             this.btnDescargar.Text = "Descargar";
             this.btnDescargar.UseVisualStyleBackColor = true;
+            this.btnDescargar.Click += new System.EventHandler(this.btnDescargar_Click);
             // 
             // Descargas
             // 

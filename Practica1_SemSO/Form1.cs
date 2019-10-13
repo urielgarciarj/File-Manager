@@ -66,7 +66,8 @@ namespace Practica1_SemSO
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
-
+            Descargas descargas = new Descargas();
+            descargas.Show();
         }
     }
 }

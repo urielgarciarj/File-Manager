@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;//Libreria para internet 
 
 namespace Practica1_SemSO
 {
@@ -16,5 +17,15 @@ namespace Practica1_SemSO
         {
             InitializeComponent();
         }
+
+        private void btnDescargar_Click(object sender, EventArgs e)
+        {
+            //Sincrona
+            WebClient wc = new WebClient();
+            wc.DownloadFile(txtURL.Text, "BRODYQUEST2.mp3");
+            MessageBox.Show("Descarga Completada!");
+        }
     }
 }
+
+//Link de descargahttps://drive.google.com/uc?export=download&id=1aWwzeN36BxrPrEOsy1i_XDWbtqVIgmjs

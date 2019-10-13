@@ -14,7 +14,7 @@ namespace Practica1_SemSO
 {
     public partial class ExploradorArchivos : Form
     {
-        static Image reinaImg = Image.FromFile("C:/Users/Negra/Desktop/Archivos_SO/txtchido.PNG");
+        static Image reinaImg = Image.FromFile("C:/Users/Uriel/Pictures/txtchido.PNG");
 
         public ExploradorArchivos()
         {
@@ -39,7 +39,7 @@ namespace Practica1_SemSO
             textBox1.Hide();
             textBox2.Hide();
             this.textBox3.Text = "C:/Users/Negra/Desktop/Archivos";
-            loadFolder(treeView1.Nodes, new DirectoryInfo(@"C:\"));
+            loadFolder(treeView1.Nodes, new DirectoryInfo(@"D:\"));
         }
 
         private void loadFolder(TreeNodeCollection nodes, DirectoryInfo folder)
@@ -84,7 +84,7 @@ namespace Practica1_SemSO
             {
                 if(listBox1.SelectedItem.ToString() == "Crear Nuevo archivo")
                 {
-                    string rutaCompleta = @"C:\Users\Negra\Desktop\Archivos\ .txt";//Ruta en la que se guardara el archivo, además de agregarle el nombre
+                    string rutaCompleta = @"C:\Users\Uriel\Desktop\Archivos\ .txt";//Ruta en la que se guardara el archivo, además de agregarle el nombre
                     using (StreamWriter mylogs = File.AppendText(rutaCompleta)) ; //Creación del archivo en la ruta que se le indico
                     listBox1.Hide();
                     cargarArchivos();
@@ -254,8 +254,8 @@ namespace Practica1_SemSO
 
         public void cargarArchivos()
         {
-            DirectoryInfo di = new DirectoryInfo(@"C:\Users\Negra\Desktop\Archivos");
-            DirectoryInfo ci = new DirectoryInfo(@"C:\Users\Negra\Desktop\Archivos");
+            DirectoryInfo di = new DirectoryInfo(@"C:\Users\Uriel\Desktop\Archivos");
+            DirectoryInfo ci = new DirectoryInfo(@"C:\Users\Uriel\Desktop\Archivos");
             int i = 0;
             //Metodo para seleccionar todos los archivos que contenga la carpeta que le especifique
             foreach (DirectoryInfo subdir in ci.GetDirectories())
