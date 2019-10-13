@@ -28,7 +28,6 @@ C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File M
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Practica1_SemSO.Form1.resources
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Practica1_SemSO.Properties.Resources.resources
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Practica1_SemSO.csproj.GenerateResource.cache
-C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Practica1_SemSO.csproj.CoreCompileInputs.cache
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Practica1_SemSO.exe
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\obj\Debug\Practica1_SemSO.pdb
 C:\Users\Uriel\Documents\Materias\Sexto semestre\Sem. Sistemas Operativos\File Manager\File-Manager\Practica1_SemSO\bin\Debug\Practica1_SemSO.exe.config

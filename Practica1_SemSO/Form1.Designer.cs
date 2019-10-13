@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnReproductor = new System.Windows.Forms.Button();
+            this.btnDownload = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -140,11 +141,21 @@
             this.btnReproductor.UseVisualStyleBackColor = true;
             this.btnReproductor.Click += new System.EventHandler(this.BtnReproductor_Click);
             // 
+            // btnDownload
+            // 
+            this.btnDownload.Location = new System.Drawing.Point(13, 36);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(75, 23);
+            this.btnDownload.TabIndex = 10;
+            this.btnDownload.Text = "Descargas";
+            this.btnDownload.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(807, 461);
+            this.Controls.Add(this.btnDownload);
             this.Controls.Add(this.btnReproductor);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label5);
@@ -178,6 +189,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnReproductor;
+        private System.Windows.Forms.Button btnDownload;
     }
 }
 
