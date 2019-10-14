@@ -87,8 +87,8 @@
         #endregion
 
         private System.Windows.Forms.ProgressBar progressBar;
-        private System.Windows.Forms.TextBox txtURL;
         private System.Windows.Forms.Button btnDescargar;
         private System.Windows.Forms.Button btnExplorador;
+        public System.Windows.Forms.TextBox txtURL;
     }
 }

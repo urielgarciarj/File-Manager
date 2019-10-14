@@ -52,5 +52,34 @@ namespace Practica1_SemSO
 
             tvFile.Nodes.Add(crearArbol(directoryInfo));
         }
+
+        private void tvFile_DoubleClick(object sender, EventArgs e)
+        {
+            listView1.Clear();
+            string ruta = tvFile.SelectedNode.FullPath;
+            textBox1.Text = ruta;
+            MessageBox.Show(ruta);
+            
+            DirectoryInfo di = new DirectoryInfo(ruta);
+            foreach (var item in di.GetFiles())
+            {
+                listView1.Items.Add(item.Name);
+            }
+            foreach (var item in di.GetDirectories())
+            {
+                listView1.Items.Add(item.Name);
+            }
+            
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            Descargas dc = new Descargas();
+            string ruta = this.tvFile.SelectedNode.FullPath;
+            string nombre = ruta + "/" + txtNombreArchivo;
+            string url = dc.txtURL.Text;
+            MessageBox.Show(url);
+            dc.descarga(url, nombre);
+        }
     }
 }
