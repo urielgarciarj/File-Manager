@@ -58,8 +58,6 @@ namespace Practica1_SemSO
             listView1.Clear();
             string ruta = tvFile.SelectedNode.FullPath;
             textBox1.Text = ruta;
-            MessageBox.Show(ruta);
-            
             DirectoryInfo di = new DirectoryInfo(ruta);
             foreach (var item in di.GetFiles())
             {
@@ -76,10 +74,10 @@ namespace Practica1_SemSO
         {
             Descargas dc = new Descargas();
             string ruta = this.tvFile.SelectedNode.FullPath;
-            string nombre = ruta + "/" + txtNombreArchivo;
+            string nombre = ruta + txtNombreArchivo.Text;
             string url = dc.txtURL.Text;
-            MessageBox.Show(url);
             dc.descarga(url, nombre);
+            this.Close();
         }
     }
 }

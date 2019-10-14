@@ -17,21 +17,22 @@ namespace Practica1_SemSO
         public Descargas()
         {
             InitializeComponent();
+            btnExplorador.Hide();
+            
         }
 
         Explorador_A explorador = new Explorador_A();
 
         public static class Global
         {
-            public static string URL; 
+            public static string URL;
+            public static int progress = 0;
         }
             
 
         private void btnDescargar_Click(object sender, EventArgs e)
         {
             //ASincrona
-            WebClient wc = new WebClient();
-            MessageBox.Show(txtURL.Text);
             Global.URL = txtURL.Text;
             Explorador_A explorador = new Explorador_A();
             explorador.Show();
@@ -39,16 +40,18 @@ namespace Practica1_SemSO
 
         public void descarga(string url, string directorio)
         {
+            url = Global.URL;
+            timer1.Start();
             WebClient wc = new WebClient();
             wc.DownloadFileCompleted += new AsyncCompletedEventHandler(Completed);
-            wc.DownloadProgressChanged += new DownloadProgressChangedEventHandler(ProgressChanged);
+            //wc.DownloadProgressChanged += new DownloadProgressChangedEventHandler(ProgressChanged);
             wc.DownloadFileAsync(new Uri(url), @"" + directorio);
         }
 
 
         private void ProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {
-            progressBar.Value = e.ProgressPercentage;
+            //progressBar.Value = e.ProgressPercentage;
         }
 
         private void Completed(object sender, AsyncCompletedEventArgs e)
@@ -61,8 +64,19 @@ namespace Practica1_SemSO
             Explorador_A explorador = new Explorador_A();
             explorador.Show();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if(Global.progress >= 0 && Global.progress <= 90)
+            {
+                Global.progress += 20;
+                progressBar.Value = Global.progress;
+            }
+        }
     }
 }
 
 //Link de descarga https://drive.google.com/uc?export=download&id=1aWwzeN36BxrPrEOsy1i_XDWbtqVIgmjs
 //https://drive.google.com/uc?export=download&id=1aWwzeN36BxrPrEOsy1i_XDWbtqVIgmjs
+
+//https://drive.google.com/uc?export=download&id=1qDAjBBd_3AsGZEwBajem_Cg1cwOAsyn8
