@@ -69,5 +69,10 @@ namespace Practica1_SemSO
             Descargas descargas = new Descargas();
             descargas.Show();
         }
+
+        private void btnTetris_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -90,6 +90,12 @@
     <Compile Include="ReproductorMusica.Designer.cs">
       <DependentUpon>ReproductorMusica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tetris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tetris.Designer.cs">
+      <DependentUpon>Tetris.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="cmd.resx">
       <DependentUpon>cmd.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReproductorMusica.resx">
       <DependentUpon>ReproductorMusica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tetris.resx">
+      <DependentUpon>Tetris.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
