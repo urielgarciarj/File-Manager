@@ -7,19 +7,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
+using System.IO;
 
 namespace Practica1_SemSO
 {
     public partial class Tetris : Form
     {
+        static Image blockImage;
         public Tetris()
         {
             InitializeComponent();
-            int xGrafico = pictureBox1.Location.X;
-            int yGrafico = pictureBox1.Location.Y;
-            Graphics g = this.CreateGraphics();
-            Pen lapiz = new Pen(Color.Purple, 3);
-            g.DrawRectangle(lapiz, new Rectangle(xGrafico, yGrafico, 5, 5));
+           
+           
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+
+        private void Tetris_KeyDown(object sender, KeyEventArgs e)
+        {
+            
         }
     }
 }

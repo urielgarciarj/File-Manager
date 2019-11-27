@@ -72,7 +72,8 @@ namespace Practica1_SemSO
 
         private void btnTetris_Click(object sender, EventArgs e)
         {
-            
+            Tetris tetris = new Tetris();
+            tetris.Show();
         }
     }
 }
